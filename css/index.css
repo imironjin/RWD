@@ -60,15 +60,15 @@ input[type="search"] {
   border: 1px solid var(--silver);
   background: var(--white);
   border-radius: 0.25rem;
-  padding: 0.125rem 0.75rem;
+  padding: var(--spacing-sxxs) var(--spacing-sm);
 }
 
 .button {
   cursor: pointer;
   height: 2rem;
   border-radius: 0.25rem;
-  padding: 0.125rem 0.75rem;
-  white-space: nowrap;
+  padding: var(--spacing-sxxs) var(--spacing-sm);
+  flex: 0 0 auto;
   font-size: var(--text-sm);
 }
 
